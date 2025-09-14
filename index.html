@@ -1,103 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EHG Detroit LLC</title>
     <style>
-    body {margin:0;font-family:Arial,sans-serif;background:#f9f9f9;color:#333;}
-    header {background:#111;color:white;padding:20px;text-align:center;}
-    header img {height:80px;display:block;margin:0 auto 10px;}
-    nav a {margin:0 15px;color:white;text-decoration:none;font-weight:bold;}
-    section {max-width:1000px;margin:40px auto;padding:20px;background:white;
-      border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
-    h1,h2 {color:#064420;}
-    footer {background:#111;color:white;text-align:center;padding:20px;margin-top:40px;}
-    .cta {display:inline-block;margin-top:20px;padding:12px 24px;background:#064420;
-      color:white;border-radius:6px;text-decoration:none;font-weight:bold;}
-    .cta:hover {background:#046b2f;}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #999;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: white;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #064420;
+      margin-top: 0;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #064420;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cta:hover {
+      background: #046b2f;
+    }
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer img {
+      width: 60px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px;
+    }
   </style>
   </head>
   <body>
-    <header style="background-color: black; height: 206px; width: 1720px;">
-      <div style="text-align: center;"><img src="logo.png" alt="EHG Detroit LLC Logo"
-          style="width: 111px; height: 111px;"></div>
-      <h1 style="background-color: black; height: 25px; text-align: center;"><span
-          style="color: white;">EHG Detroit LLC</span></h1>
-      <p><br>
-      </p>
-      <div style="text-align: center;">
-        <nav style="background-color: black; margin-top: -15px; height: 37px; margin-left: -28px; width: 1771px;">
-          <span style="color: #999999;"><a href="#quienes" style="color: #999999;">Quiénes
-              Somos</a>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; <a href="#estrategia"
-              style="color: #999999;">Estrategia</a> <a href="#confianza" style="color: #999999;">&nbsp;&nbsp;
-              &nbsp; &nbsp;&nbsp; Por qué Confiar</a>
-            &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <a href="#contacto" style="color: #999999;">Contacto</a></span>
-        </nav>
-      </div>
+    <header> <img src="logo.png" alt="EHG Detroit LLC Logo">
+      <h1><span style="color: white;">EHG Detroit LLC</span></h1>
+      <nav> <a href="#quienes">Quiénes Somos</a> <a href="#estrategia">Estrategia</a>
+        <a href="#confianza">Por qué Confiar</a> <a href="#contacto">Contacto</a>
+      </nav>
     </header>
-    <section id="inicio" style="background-color: white;">
-      <h2 style="text-align: left;"><span style="color: #222b35;">Bienvenido a
-          EHG Detroit LLC</span></h2>
-      <div style="text-align: left;"><span style="color: #222b35;"> </span></div>
-      <p style="text-align: left;"><span style="color: #222b35;">Invertimos en
-          viviendas ubicadas en la ciudad de Detroit y las destinamos al
-          programa "Housing Choice Voucher" (Sección 8).</span></p>
-      <div style="text-align: center;"><span style="color: #222b35;"> <a href="#contacto"
-            class="cta">Contáctanos</a></span></div>
+    <section id="inicio">
+      <h2>Bienvenido a EHG Detroit LLC</h2>
+      <p> Invertimos en viviendas ubicadas en la ciudad de Detroit y las
+        destinamos al programa "Housing Choice Voucher" (Sección 8). </p>
+      <div style="text-align: center;"> <a href="#contacto" class="cta">Contáctanos</a>
+      </div>
     </section>
-    <div style="text-align: left;">
-      <section id="quienes">
-        <h2 style="text-align: left;"><span style="color: #222b35;">Quiénes
-            Somos</span></h2>
-        <div style="text-align: left;"><span style="color: #222b35;"> </span></div>
-        <p style="text-align: left;"><span style="color: #222b35;">Somos una
-            empresa ubicada en Detroit y dedicada a construir un portafolio
-            sólido de viviendas bajo Sección 8, con experiencia en gestión
-            inmobiliaria.</span></p>
-      </section>
-      <section id="estrategia">
-        <h2 style="text-align: left;"><span style="color: #222b35;">Nuestra
-            Estrategia</span></h2>
-        <div style="text-align: left;"><span style="color: #222b35;"> </span></div>
-        <ul style="text-align: left;">
-          <span style="color: #222b35;"> </span>
-        </ul>
-        <div style="text-align: left;"><span style="color: #222b35;">Comprar
-            propiedades de 3 a 4 habitaciones ≤ $100,000.</span><br>
-          <span style="color: #222b35;">Adquirir viviendas reformadas o listas
-            para habitar.</span><br>
-          <span style="color: #222b35;">Alquilarlas bajo el programa Sección 8.</span></div>
-        <ul>
-        </ul>
-      </section>
-    </div>
+    <section id="quienes">
+      <h2>Quiénes Somos</h2>
+      <p> Somos una empresa ubicada en Detroit y dedicada a construir un
+        portafolio sólido de viviendas bajo Sección 8, con experiencia en
+        gestión inmobiliaria. </p>
+    </section>
+    <section id="estrategia">
+      <h2>Nuestra Estrategia</h2>
+      <p> Comprar propiedades de 3 a 4 habitaciones ≤ $100,000.<br>
+        Adquirir viviendas reformadas o listas para habitar.<br>
+        Alquilarlas bajo el programa Sección 8. </p>
+    </section>
     <section id="confianza">
-      <h2 style="text-align: left;"><span style="color: #222b35;">Por qué
-          Confiar en Nosotros</span></h2>
-      <div style="text-align: left;"><span style="color: #222b35;"> </span></div>
-      <p style="text-align: left;"><span style="color: #222b35;">Ofrecemos
-          profesionalidad, transparencia y compromiso. Conocemos el mercado
-          local y priorizamos las zonas con mayor rentabilidad. También
-          colaboramos con property managers para la gestión de propiedades
-          después de la compra.</span></p>
+      <h2>Por qué Confiar en Nosotros</h2>
+      <p> Ofrecemos profesionalidad, transparencia y compromiso. Conocemos el
+        mercado local y priorizamos las zonas con mayor rentabilidad. También
+        colaboramos con property managers para la gestión de propiedades después
+        de la compra. </p>
     </section>
     <section id="contacto">
-      <h2 style="text-align: left;"><span style="color: #222b35;">Contacto</span></h2>
-      <div style="text-align: left;"><span style="color: #222b35;"> </span></div>
-      <p style="text-align: left;"><span style="color: #222b35;"><strong>Email:</strong>
-          admin@ehgdetroit.com</span></p>
-      <div style="text-align: left;"><span style="color: #222b35;"> </span></div>
-      <p style="text-align: left;"><span style="color: #222b35;"><strong>Telefono:</strong>
-          +1(313)5526396</span></p>
-      <div style="text-align: left;"><span style="color: #222b35;"> </span></div>
-      <p style="text-align: left;"><span style="color: #222b35;"><strong>Web
-            oficial:</strong> www.ehgdetroit.com</span></p>
+      <h2>Contacto</h2>
+      <p>Email: admin@ehgdetroit.com</p>
+      <p>Teléfono: +1 (313) 552 6396</p>
+      <p>Web oficial: www.ehgdetroit.com</p>
     </section>
-    <footer>
-      <p><img src="logo.png" alt="EHG Detroit LLC Logo" style="width: 46px; height: 46px;"></p>
+    <footer> <img src="logo.png" alt="EHG Detroit LLC Logo">
       <p>© 2025 EHG Detroit LLC - Todos los derechos reservados</p>
-      <p></p>
     </footer>
   </body>
 </html>
